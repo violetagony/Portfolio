@@ -1,0 +1,90 @@
+#body {
+  background: #eee;
+  flex-direction: column;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  margin: 0;
+  background-color: rgb(238, 238, 238);
+}
+
+.first-chapter {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 8px auto;
+  padding: 10px 150px;
+}
+
+#title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #333;
+  margin: 0 auto;
+}
+
+#description {
+  margin: 5px auto;
+  font-size: 20px;
+  font-weight: 250;
+}
+
+#image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+
+#img-caption {
+  display: flex;
+  text-align: center;
+  padding: 3px;
+  font-size: 18px;
+  font-weight: 220;
+}
+
+.listtext {
+  font-size: 19px;
+  font-weight: 270;
+  margin: 15px 550px;
+  padding: 8px;
+}
+
+#list-head {
+  font-size: 25px;
+  font-weight: 270;
+  text-align: center;
+}
+
+#conclusion, #conclusion2 {
+  text-align: center;
+  margin: 10px 550px;
+  font-size: 19px;
+  font-weight: 270;
+}
+
+#conclusion2 {
+  padding: 10px;
+}
+
+#footer-text {
+  font-size: 21px;
+  font-weight: 320;
+  text-align: center;
+  margin: 10px 400px;
+}
+
+#list, #list-head, #description, #title, #img-caption, #conclusion, #conclusion2, #footer-text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  }
+
+
+
+
+  

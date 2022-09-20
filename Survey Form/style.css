@@ -1,0 +1,125 @@
+body {
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612774023_51-p-temno-goluboi-fon-minimalizm-oboi-na-aifon-75.jpg);
+  background-color: rgb(89, 174, 235);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#all-elements {
+  font-family: 'Poppins', sans-serif; 
+  background-color: rgba(145, 238, 250, 0.5);
+  border-radius: 13px;
+  padding: 30px;
+}
+
+#title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#description {
+  font-size: 23px;
+  font-weight: 420;
+  margin: 5px;
+}
+
+
+#title, #description {
+  text-align: center;
+  color: rgb(6, 8, 84);
+}
+
+#name, #email, #number {
+  box-sizing: border-box;
+  padding: 17px;
+  margin: 0 auto;
+}
+
+#name-label, #email-label, #number-label {
+  align-items: flex-start;
+}
+
+.all-forms , .input-radio , .input-checkbox {
+  display: flex;
+  flex-directin: column;
+}
+
+.input-radio , .input-checkbox {
+  font-size: 19px;
+  font-weight: 270;
+  margin: 5px 0 0 0;
+  padding: 1px;
+}
+
+.input-radio, .input-checkbox, .placeholders, #textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+.headers {
+  font-size: 22px;
+  font-weight: 350;
+  margin: 13px 0 5px 0;
+  padding: 5px;
+  color: rgb(4, 36, 74);
+}
+
+.select-options {
+  margin: 10px 0 0 0;
+  padding: 7px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 220;
+  border-radius: 13px;
+  border: 2px solid rgb(4, 36, 74);
+}
+
+.placeholders {
+  height: 23px;
+}
+
+#dropdown {
+  margin: 5px 0 10px 0;
+}
+
+.placeholders, #textarea , #submit{
+  font-size: 16px;
+  font-weight: 220;
+  width: 100%;
+  padding: 5px;
+  border-radius: 13px;
+  border: 2px solid rgb(4, 36, 74);
+}
+
+#textarea {
+  padding: 7px;
+  resize: vertical;
+  min-height: 150px;
+  max-height: 350px;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+#submit {
+  padding: 15px;
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  background-color: rgb(97, 250, 169);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0 0 0;
+}
